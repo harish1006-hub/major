@@ -79,7 +79,7 @@ delay_ms(2000);
 		{ 
 		uart0_tx_string("Temp: ");
 		uart0_tx_integer(m1.byteA);
-			uart0_tx_string("°c");
+			uart0_tx_string("Â°c");
 		 uart0_tx_string("\r\n");
 		 int_str(m1.byteA);
 		 strcpy(temp,buf);
